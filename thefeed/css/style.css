@@ -1,0 +1,77 @@
+
+
+ body {
+    background-image: url(/thefeed/img/fairmont.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+        }
+a {
+    font-family: "Rubik Dirt", system-ui;
+    color: dimgray;
+    font-size: 120px;
+    align-items: center;
+    text-decoration: none ;
+    text-align: center;
+}
+
+img{
+    border: 30px solid;
+    border-color: blanchedalmond;
+    border-radius: 6px;
+    width: 460px;
+    
+}
+
+p{
+    background-color: blanchedalmond;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "Noto Sans Display", sans-serif;
+    font-size: 30px; 
+    color: dimgrey;
+    width: 460px; 
+}
+
+div{
+    text-align: center;
+    padding-top: 40px;
+    color: grey;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+article{
+    width: 460px;
+    margin: 40px;
+    
+}
+
+hr.dashed{
+    border-top: 9px dashed thistle;
+}
+.header{
+    overflow: hidden;
+    background-color: thistle;
+    padding: 30px 15px;
+}
+.footer{
+    overflow: auto;
+    background-color: thistle;
+    padding: 30px 15px;
+}
+.info {
+    text-align: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    color: dimgray;
+    text-decoration-line: none;
+    padding: 20px 15px;
+}

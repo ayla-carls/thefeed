@@ -1,0 +1,27 @@
+nav a{
+    font-family: "Rubik Dirt", system-ui;
+    font-size: 100px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    color: grey;
+    padding-top: 10px;
+}
+style {
+    background-image: url(/images/concrete_seamless.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+}
+ 
+img{
+    padding-top: 300px;
+    align-items: center;
+    justify-content: center;
+    width: 688px;
+    height: 688;
+    
+  }
+div {
+    text-align: center;
+}
