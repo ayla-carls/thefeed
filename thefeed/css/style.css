@@ -1,11 +1,4 @@
 
-
- body {
-    background-image: url(/thefeed/img/fairmont.jpeg);
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-size: cover;
-        }
 a {
     font-family: "Rubik Dirt", system-ui;
     color: dimgray;
@@ -15,7 +8,7 @@ a {
     text-align: center;
 }
 
-img{
+.image2{
     border: 30px solid;
     border-color: blanchedalmond;
     border-radius: 6px;
@@ -23,7 +16,7 @@ img{
     
 }
 
-p{
+.text2{
     background-color: blanchedalmond;
     padding: 15px;
     border-radius: 5px;
@@ -49,11 +42,10 @@ section {
 
 article{
     width: 460px;
-    margin: 40px;
-    
+    margin: 40px;   
 }
 
-hr.dashed{
+hr.dashed1{
     border-top: 9px dashed thistle;
 }
 .header{
@@ -66,12 +58,37 @@ hr.dashed{
     background-color: thistle;
     padding: 30px 15px;
 }
-.info {
+
+h2{
+    font-family: "Rubik Dirt", system-ui;
+    color: dimgray;
+    font-size: 65px;
+}
+aside{
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: left;
+    font-style: italic;
+    background-color: lightgray;
+}
+.image1{
+    border: none;
+    image-orientation: flip;
+    
+}
+.text1{
     text-align: center;
     justify-content: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 22px;
+    font-size: 34px;
     color: dimgray;
     text-decoration-line: none;
     padding: 20px 15px;
+}
+.style{
+    background-image: url(/thefeed/img/fairmont.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
 }
